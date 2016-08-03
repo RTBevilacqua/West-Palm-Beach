@@ -1,0 +1,235 @@
+*{
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+
+}
+section{
+	background-color: #efeff5;
+}
+
+
+.main{
+	max-width: 940px;
+	background-color: #ffffb;
+	margin: 0 auto;
+
+
+}
+
+img{
+	max-width: 100%;
+}
+
+
+h1{
+	font-family: raleway;
+	font-weight: 400 bold;
+	font-size: 4em;
+	text-align: center;
+	margin: 0 auto;
+	letter-spacing: 18px;
+
+}
+
+h2{
+	font-family: raleway;
+	font-weight: 300;
+	text-align: center;
+	position: relative;
+	margin: 0 10px;
+	margin-bottom: 8px;
+}
+
+p{
+	margin: 0 10px;
+	font-family: raleway;
+}
+
+nav ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0 auto;
+	padding: 10px 20px;
+	background: linear-gradient(#ffb22f, #e7a101);
+	font-family: raleway;
+	font-weight: bold;
+	color: white;
+
+
+}
+
+a:visited{
+	color: white;
+}
+
+/*****************HOME PAGE*****************/
+
+#headerHome{
+	background-image: url("http://www.eswestpalmbeach.com/images/mastheads/our-location.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 200px 0;
+	
+}
+
+#container{
+	
+	image-size: auto;
+}
+
+#history{
+	background-image: url("https://cmgpbphistoricalpalmbeach.files.wordpress.com/2010/01/wpbreadingroom.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 1px auto;
+	padding: 40px;
+
+	
+
+}
+
+
+#Daytime{
+	background-image: url("http://vistaocotal.com/wp-content/uploads/costa-rica-activities-snorkeling.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 1px auto;
+	padding: 40px;
+	
+}
+
+#Nighttime{
+	background-image: url("http://palmbeachonthecheap.com/lotc-cms/wp-content/uploads/2016/02/bigstock-West-Palm-Beach-Florida-at-sun-47485078.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 1px auto;
+	padding: 40px;
+	
+}
+
+#contact{
+	background-image: url("http://www.jamventuretours.com/wp-content/uploads/2012/05/A-tourist%E2%80%99s-guide-to-Palm-Beach-Florida.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 1px auto;
+	padding: 40px;
+	
+
+}
+
+#links{
+	font-family: raleway;
+	font-size: 3em;
+	padding: -10 ;
+	color: white;
+     text-shadow: 1px 5px 5px #A4A4A4;
+     letter-spacing: 10px;
+     text-align: center;
+     font-weight: 900;
+
+	
+}
+
+/********** FOOTER *****************/
+
+footer{
+	background-color: #424242;
+	border-top: 5px solid #ffd571;
+	margin-top: 2px;
+	padding: 10px 0 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
+#footerContact{
+text-align: center;
+margin: 0;
+padding: 0;
+
+}
+
+#social{
+	max-width: 300px;
+	display: flex;
+	align-content: center;
+	padding: 0 10px;
+	margin: 20px auto;
+	align-items: center;
+	justify-content: space-between;
+
+}
+#fbook{
+	margin: 0 15px;
+}
+#twit{
+	max-width: 120px;
+}
+
+
+/*************HISTORY******************/
+#headerHistory{
+	background-image: url("http://www.eswestpalmbeach.com/images/mastheads/our-location.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 20% 0;
+}
+#historyInfo{
+text-align: center;
+
+}
+
+/************* CONTACT ****************/
+
+#headerContact{
+	background-image: url("http://www.eswestpalmbeach.com/images/mastheads/our-location.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 20% 0;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	padding: 50px 20px;
+	border: 2px solid black;
+	border-radius: 20%;
+	background: lightblue;
+	font-family: raleway;
+	margin: 0 10px;
+}
+
+#submit{
+	position: relative;	
+	top: 15px;
+}
+
+
+/************* DAY ****************/
+
+#headerDay{
+	background-image: url("http://www.eswestpalmbeach.com/images/mastheads/our-location.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 20% 0;
+}
+
+
+
+/************* NIGHT ****************/
+
+#headerNight{
+	background-image: url("http://www.eswestpalmbeach.com/images/mastheads/our-location.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 20% 0;
+}
+
+
