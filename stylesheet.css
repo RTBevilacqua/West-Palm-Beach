@@ -2,8 +2,8 @@
 	box-sizing: border-box;
 	text-decoration: none;
 	list-style: none;
-
 }
+
 section{
 	background-color: #efeff5;
 }
@@ -60,11 +60,11 @@ nav ul{
 
 }
 
-a:visited{
+a{
 	color: white;
 }
 
-/*****************HOME PAGE*****************/
+/*------------------HOME PAGE------------------*/
 
 #headerHome{
 	background-image: url("http://www.eswestpalmbeach.com/images/mastheads/our-location.jpg");
@@ -92,7 +92,7 @@ a:visited{
 }
 
 
-#Daytime{
+#daytime{
 	background-image: url("http://vistaocotal.com/wp-content/uploads/costa-rica-activities-snorkeling.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
@@ -102,7 +102,7 @@ a:visited{
 	
 }
 
-#Nighttime{
+#nighttime{
 	background-image: url("http://palmbeachonthecheap.com/lotc-cms/wp-content/uploads/2016/02/bigstock-West-Palm-Beach-Florida-at-sun-47485078.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
@@ -136,7 +136,7 @@ a:visited{
 	
 }
 
-/********** FOOTER *****************/
+/*------------------ FOOTER ------------------*/
 
 footer{
 	background-color: #424242;
@@ -174,7 +174,7 @@ padding: 0;
 }
 
 
-/*************HISTORY******************/
+/*------------------HISTORY------------------*/
 #headerHistory{
 	background-image: url("http://www.eswestpalmbeach.com/images/mastheads/our-location.jpg");
 	background-repeat: no-repeat;
@@ -186,7 +186,7 @@ text-align: center;
 
 }
 
-/************* CONTACT ****************/
+/*------------------CONTACT ------------------*/
 
 #headerContact{
 	background-image: url("http://www.eswestpalmbeach.com/images/mastheads/our-location.jpg");
@@ -212,7 +212,7 @@ form{
 }
 
 
-/************* DAY ****************/
+/*------------------ DAY ------------------*/
 
 #headerDay{
 	background-image: url("http://www.eswestpalmbeach.com/images/mastheads/our-location.jpg");
@@ -223,13 +223,28 @@ form{
 
 
 
-/************* NIGHT ****************/
+/*------------------ NIGHT ------------------*/
 
 #headerNight{
 	background-image: url("http://www.eswestpalmbeach.com/images/mastheads/our-location.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 20% 0;
+}
+
+@media (min-width: 1000px){
+	#history{
+		padding: 90px 0;
+	}
+	#daytime{
+		padding: 90px 0;
+	}
+	#nighttime{
+		padding: 90px 0;
+	}
+	#contact{
+		padding: 90px 0;
+	}
 }
 
 
