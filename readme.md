@@ -1,0 +1,1 @@
+West Palm Beach is a web page that I designed using flex box. This site was also my first practice at using media queries.

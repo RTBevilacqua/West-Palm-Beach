@@ -4,26 +4,30 @@
 	list-style: none;
 }
 
-section{
+
+body{
 	background-color: #efeff5;
-}
-
-
-.main{
-	max-width: 940px;
-	background-color: #ffffb;
+	max-width: 1100px;
 	margin: 0 auto;
-
-
 }
+
+
+
+
+section{
+	background: white;
+}
+
 
 img{
 	max-width: 100%;
+	display: block;
+	margin: 0 auto;
 }
 
 
 h1{
-	font-family: raleway;
+	font-family: Raleway, helvetica;
 	font-weight: 400 bold;
 	font-size: 4em;
 	text-align: center;
@@ -33,17 +37,20 @@ h1{
 }
 
 h2{
-	font-family: raleway;
+	font-family: Raleway, helvetica;
 	font-weight: 300;
 	text-align: center;
 	position: relative;
 	margin: 0 10px;
 	margin-bottom: 8px;
 }
+section h2{
+	margin: 10px 0;
+}
 
 p{
-	margin: 0 10px;
-	font-family: raleway;
+	margin: 10px 10px;
+	font-family: 'Libre Franklin', helvetica;
 }
 
 nav ul{
@@ -63,6 +70,11 @@ nav ul{
 a{
 	color: white;
 }
+a h1,
+a h2{
+	color: black;
+}
+
 
 /*------------------HOME PAGE------------------*/
 
@@ -79,59 +91,42 @@ a{
 	image-size: auto;
 }
 
-#history{
-	background-image: url("https://cmgpbphistoricalpalmbeach.files.wordpress.com/2010/01/wpbreadingroom.jpg");
+#history,
+#daytime,
+#nighttime,
+#contact{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin: 1px auto;
 	padding: 40px;
+}
 
-	
-
+#history{
+	background-image: url("https://cmgpbphistoricalpalmbeach.files.wordpress.com/2010/01/wpbreadingroom.jpg");
 }
 
 
 #daytime{
 	background-image: url("http://vistaocotal.com/wp-content/uploads/costa-rica-activities-snorkeling.jpg");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	margin: 1px auto;
-	padding: 40px;
-	
 }
 
 #nighttime{
-	background-image: url("http://palmbeachonthecheap.com/lotc-cms/wp-content/uploads/2016/02/bigstock-West-Palm-Beach-Florida-at-sun-47485078.jpg");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	margin: 1px auto;
-	padding: 40px;
-	
+	background-image: url("http://palmbeachonthecheap.com/lotc-cms/wp-content/uploads/2016/02/bigstock-West-Palm-Beach-Florida-at-sun-47485078.jpg");	
 }
 
 #contact{
 	background-image: url("http://www.jamventuretours.com/wp-content/uploads/2012/05/A-tourist%E2%80%99s-guide-to-Palm-Beach-Florida.jpg");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	margin: 1px auto;
-	padding: 40px;
-	
-
 }
 
 #links{
-	font-family: raleway;
+	font-family: Raleway, helvetica;
 	font-size: 3em;
 	padding: -10 ;
 	color: white;
-     text-shadow: 1px 5px 5px #A4A4A4;
-     letter-spacing: 10px;
-     text-align: center;
-     font-weight: 900;
+	letter-spacing: 10px;
+	text-align: center;
+	text-shadow: 1px 1px 45px black;
 
 	
 }
@@ -150,9 +145,10 @@ footer{
 }
 
 #footerContact{
-text-align: center;
-margin: 0;
-padding: 0;
+	text-align: center;
+	color: #959494;
+	margin: 0;
+	padding: 0;
 
 }
 
@@ -182,7 +178,7 @@ padding: 0;
 	padding: 20% 0;
 }
 #historyInfo{
-text-align: center;
+	text-align: center;
 
 }
 
@@ -195,21 +191,39 @@ text-align: center;
 	padding: 20% 0;
 }
 
+#contact-title{
+	margin: 36px auto 11px;
+}
+#contact-h2{
+	font-size: 1.2em;
+}
+
+#contact-div{
+	padding-bottom: 1px;
+}
+
 form{
 	display: flex;
 	flex-direction: column;
-	padding: 50px 20px;
-	border: 2px solid black;
-	border-radius: 20%;
+	padding: 45px 20px;
 	background: lightblue;
 	font-family: raleway;
-	margin: 0 10px;
+	margin: 26px auto 85px;
+	width: 400px;
 }
+
+#bio{
+	max-width: 360px;
+}
+
 
 #submit{
 	position: relative;	
-	top: 15px;
+	top: 25px;
+	width: 200px;
+	margin: 0 78px;	
 }
+
 
 
 /*------------------ DAY ------------------*/
@@ -219,6 +233,10 @@ form{
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 20% 0;
+}
+
+.day-activities{
+	margin-top: 0;
 }
 
 
@@ -232,19 +250,20 @@ form{
 	padding: 20% 0;
 }
 
-@media (min-width: 1000px){
-	#history{
-		padding: 90px 0;
-	}
-	#daytime{
-		padding: 90px 0;
-	}
-	#nighttime{
-		padding: 90px 0;
-	}
+.night-activities{
+	margin-top: 0;
+}
+
+/*------------------ MEDIA QUERY ------------------*/
+
+@media (min-width: 680px){
+	#history,
+	#daytime,
+	#nighttime,
 	#contact{
 		padding: 90px 0;
 	}
+	
 }
 
 
