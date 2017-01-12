@@ -37,7 +37,7 @@ h1{
 }
 
 h2{
-	font-family: Raleway, helvetica;
+	font-family: 'Libre Franklin', helvetica;
 	font-weight: 300;
 	text-align: center;
 	position: relative;
@@ -58,9 +58,9 @@ nav ul{
 	flex-direction: row;
 	justify-content: space-between;
 	margin: 0 auto;
-	padding: 10px 20px;
+	padding: 10px 160px;
 	background: linear-gradient(#ffb22f, #e7a101);
-	font-family: raleway;
+	font-family: 'Libre Franklin', helvetica;
 	font-weight: bold;
 	color: white;
 
@@ -70,6 +70,7 @@ nav ul{
 a{
 	color: white;
 }
+
 a h1,
 a h2{
 	color: black;
@@ -79,7 +80,7 @@ a h2{
 /*------------------HOME PAGE------------------*/
 
 #headerHome{
-	background-image: url("http://www.eswestpalmbeach.com/images/mastheads/our-location.jpg");
+	background-image: url("images/sunset.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 200px 0;
@@ -99,36 +100,29 @@ a h2{
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin: 1px auto;
-	padding: 40px;
-}
-
-#history{
-	background-image: url("https://cmgpbphistoricalpalmbeach.files.wordpress.com/2010/01/wpbreadingroom.jpg");
-}
-
-
-#daytime{
-	background-image: url("http://vistaocotal.com/wp-content/uploads/costa-rica-activities-snorkeling.jpg");
-}
-
-#nighttime{
-	background-image: url("http://palmbeachonthecheap.com/lotc-cms/wp-content/uploads/2016/02/bigstock-West-Palm-Beach-Florida-at-sun-47485078.jpg");	
-}
-
-#contact{
-	background-image: url("http://www.jamventuretours.com/wp-content/uploads/2012/05/A-tourist%E2%80%99s-guide-to-Palm-Beach-Florida.jpg");
-}
-
-#links{
 	font-family: Raleway, helvetica;
 	font-size: 3em;
-	padding: -10 ;
 	color: white;
 	letter-spacing: 10px;
 	text-align: center;
 	text-shadow: 1px 1px 45px black;
+}
 
-	
+#history{
+	background-image: url("images/wpbreadingroom.jpg");
+}
+
+
+#daytime{
+	background-image: url("images/snorkel.jpg");
+}
+
+#nighttime{
+	background-image: url("images/dock.jpg");	
+}
+
+#contact{
+	background-image: url("images/ocean.jpg");
 }
 
 /*------------------ FOOTER ------------------*/
@@ -172,7 +166,7 @@ footer{
 
 /*------------------HISTORY------------------*/
 #headerHistory{
-	background-image: url("http://www.eswestpalmbeach.com/images/mastheads/our-location.jpg");
+	background-image: url("images/sunset.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 20% 0;
@@ -185,7 +179,7 @@ footer{
 /*------------------CONTACT ------------------*/
 
 #headerContact{
-	background-image: url("http://www.eswestpalmbeach.com/images/mastheads/our-location.jpg");
+	background-image: url("images/sunset.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 20% 0;
@@ -229,7 +223,7 @@ form{
 /*------------------ DAY ------------------*/
 
 #headerDay{
-	background-image: url("http://www.eswestpalmbeach.com/images/mastheads/our-location.jpg");
+	background-image: url("images/sunset.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 20% 0;
@@ -244,7 +238,7 @@ form{
 /*------------------ NIGHT ------------------*/
 
 #headerNight{
-	background-image: url("http://www.eswestpalmbeach.com/images/mastheads/our-location.jpg");
+	background-image: url("images/sunset.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 20% 0;
