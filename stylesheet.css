@@ -61,10 +61,12 @@ nav ul{
 	padding: 10px 160px;
 	background: linear-gradient(#ffb22f, #e7a101);
 	font-family: 'Libre Franklin', helvetica;
-	font-weight: bold;
+	font-size: 1.5em;
 	color: white;
+}
 
-
+.underline {
+	text-decoration: underline;
 }
 
 a{
